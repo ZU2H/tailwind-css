@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  },
+  "name": "tailwind-css",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwind build -i src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZU2H/tailwind-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZU2H/tailwind-css/issues"
+  },
+  "homepage": "https://github.com/ZU2H/tailwind-css#readme"
+}
