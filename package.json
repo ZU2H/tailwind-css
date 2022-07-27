@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "build-css": "tailwind build -i src/style.css -o public/style.css"
+    "build-css": "tailwind build -i src/style.css -o public/style.css --watch"
   },
   "repository": {
     "type": "git",
