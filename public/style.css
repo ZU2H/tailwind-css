@@ -775,9 +775,19 @@ video {
   border-bottom-right-radius: 9999px;
 }
 
+.bg-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 94 36 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
+.bg-dark-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -890,6 +900,16 @@ video {
 .hover\:bg-gray:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(145 148 162 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-orange:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 94 36 / var(--tw-bg-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
