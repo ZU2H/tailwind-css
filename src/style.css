@@ -3,3 +3,28 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+@layer components {
+
+  /* Card CSS */
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    box-shadow: theme('boxShadow.xl');
+  }
+
+  .card-image {
+    height: 60%;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .card-text {
+    padding-top: theme('spacing.3');
+    padding-bottom: theme('spacing.3');
+    padding-right: theme('spacing.6');
+    padding-left: theme('spacing.6');
+  }
+
+  /* Card CSS */
+}
