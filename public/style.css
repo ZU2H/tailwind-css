@@ -600,11 +600,6 @@ video {
   gap: 2.5rem;
 }
 
-.bg-gray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(145 148 162 / var(--tw-bg-opacity));
-}
-
 .font-Poppins {
   font-family: Poppins, sans-serif;
 }
